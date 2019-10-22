@@ -4,7 +4,7 @@ import { Container, Menu, Icon, Dropdown } from 'semantic-ui-react';
 export default class TopMenu extends React.Component {
   render() {
     return (
-      <Menu borderless className="topmenu">
+      <Menu borderless className="TopMenu">
         <Container>
           <Menu.Item fitted><Icon name="facebook f"/></Menu.Item>
           <Menu.Item fitted><Icon name="twitter"/></Menu.Item>
