@@ -1,7 +1,7 @@
-import React from 'react';
+ import React from 'react';
 import { Menu, Grid, Dropdown } from 'semantic-ui-react';
 
-export default class middleMenu extends React.Component {
+export default class MiddleMenu extends React.Component {
   render() {
     return (
         <Menu borderless className="middlemenu">
@@ -25,9 +25,9 @@ export default class middleMenu extends React.Component {
                 <Dropdown.Item>Shirts</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-            <Menu.Item>Search</Menu.Item>
+            <Menu.Item>SEARCH</Menu.Item>
           </Grid>
         </Menu>
-    );
+    )
   }
 }

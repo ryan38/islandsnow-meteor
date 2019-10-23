@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, List, Input, Label } from 'semantic-ui-react';
 
-export default class footerMenu extends React.Component {
+export default class FooterMenu extends React.Component {
   render() {
     return (
         <div className="footer-background">
@@ -17,7 +17,17 @@ export default class footerMenu extends React.Component {
             </Grid.Column>
 
             <Grid.Column>
-              Main Menu
+              MAIN MENU
+              <hr />
+              <List>
+                <List.Item>Men</List.Item>
+                <List.Item>Women</List.Item>
+                <List.Item>Kids</List.Item>
+              </List>
+            </Grid.Column>
+
+            <Grid.Column>
+              CONNECT
               <hr />
               <List>
                 <List.Item>Sign up for the latest updates</List.Item>
@@ -29,6 +39,6 @@ export default class footerMenu extends React.Component {
             </Grid.Column>
           </Grid>
         </div>
-    );
+    )
   }
 }

@@ -1,19 +1,17 @@
 import React from 'react';
 import TopMenu from '../components/TopMenu';
-import IslandSnowLogo from '../components/islandSnowLogo';
-import middleMenu from '../components/middleMenu';
-import fullWidthImage from '../components/fullWidthImage';
-import footerMenu from '../components/footerMenu';
+import IslandSnowLogo from '../components/IslandSnowLogo';
+import MiddleMenu from '../components/MiddleMenu';
+import FullWidthImage from '../components/FullWidthImage';
+import FooterMenu from '../components/FooterMenu';
 
 export default class IslandSnow extends React.Component {
   render() {
     return (
         <div>
-          <TopMenu/>
           <IslandSnowLogo/>
-          <middleMenu/>
-          <fullWidthImage/>
-          <footerMenu/>
+          <MiddleMenu/>
+          <FullWidthImage/>
         </div>
     )
   }
